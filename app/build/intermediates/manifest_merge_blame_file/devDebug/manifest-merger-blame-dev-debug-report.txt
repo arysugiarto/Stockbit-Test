@@ -1,0 +1,179 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="android.stockbit.hiring.dev"
+4    android:versionCode="1"
+5    android:versionName="1.0-dev" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->E:\Test\stockbit-test\Stockbit-Test\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->E:\Test\stockbit-test\Stockbit-Test\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+11-->E:\Test\stockbit-test\Stockbit-Test\app\src\main\AndroidManifest.xml:5:5-79
+11-->E:\Test\stockbit-test\Stockbit-Test\app\src\main\AndroidManifest.xml:5:22-76
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->E:\Test\stockbit-test\Stockbit-Test\app\src\main\AndroidManifest.xml:6:5-66
+12-->E:\Test\stockbit-test\Stockbit-Test\app\src\main\AndroidManifest.xml:6:22-64
+13
+14    <uses-feature
+14-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\arysu\.gradle\caches\transforms-3\3c9ce42c2f79b2458bd2f7f2b586040e\transformed\jetified-play-services-maps-17.0.0\AndroidManifest.xml:26:5-28:35
+15        android:glEsVersion="0x00020000"
+15-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\arysu\.gradle\caches\transforms-3\3c9ce42c2f79b2458bd2f7f2b586040e\transformed\jetified-play-services-maps-17.0.0\AndroidManifest.xml:27:9-41
+16        android:required="true" />
+16-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\arysu\.gradle\caches\transforms-3\3c9ce42c2f79b2458bd2f7f2b586040e\transformed\jetified-play-services-maps-17.0.0\AndroidManifest.xml:28:9-32
+17
+18    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+18-->[com.android.installreferrer:installreferrer:1.0] C:\Users\arysu\.gradle\caches\transforms-3\da302127ce9ff1b98553d59cd706297c\transformed\jetified-installreferrer-1.0\AndroidManifest.xml:9:5-110
+18-->[com.android.installreferrer:installreferrer:1.0] C:\Users\arysu\.gradle\caches\transforms-3\da302127ce9ff1b98553d59cd706297c\transformed\jetified-installreferrer-1.0\AndroidManifest.xml:9:22-107
+19
+20    <application
+20-->E:\Test\stockbit-test\Stockbit-Test\app\src\main\AndroidManifest.xml:9:5-27:19
+21        android:name="com.stockbit.hiring.App"
+21-->E:\Test\stockbit-test\Stockbit-Test\app\src\main\AndroidManifest.xml:10:9-28
+22        android:allowBackup="true"
+22-->E:\Test\stockbit-test\Stockbit-Test\app\src\main\AndroidManifest.xml:11:9-35
+23        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+23-->[androidx.core:core:1.3.2] C:\Users\arysu\.gradle\caches\transforms-3\6f1b04c7765c586d4bf59aea9c0db4c3\transformed\core-1.3.2\AndroidManifest.xml:24:18-86
+24        android:debuggable="true"
+25        android:icon="@mipmap/ic_launcher"
+25-->E:\Test\stockbit-test\Stockbit-Test\app\src\main\AndroidManifest.xml:12:9-43
+26        android:label="@string/app_name"
+26-->E:\Test\stockbit-test\Stockbit-Test\app\src\main\AndroidManifest.xml:13:9-41
+27        android:roundIcon="@mipmap/ic_launcher_round"
+27-->E:\Test\stockbit-test\Stockbit-Test\app\src\main\AndroidManifest.xml:14:9-54
+28        android:supportsRtl="true"
+28-->E:\Test\stockbit-test\Stockbit-Test\app\src\main\AndroidManifest.xml:15:9-35
+29        android:testOnly="true"
+30        android:theme="@style/Theme.Stockbit"
+30-->E:\Test\stockbit-test\Stockbit-Test\app\src\main\AndroidManifest.xml:16:9-46
+31        android:usesCleartextTraffic="true" >
+31-->E:\Test\stockbit-test\Stockbit-Test\app\src\main\AndroidManifest.xml:17:9-44
+32        <activity android:name="com.stockbit.hiring.ui.main.MainActivity" >
+32-->E:\Test\stockbit-test\Stockbit-Test\app\src\main\AndroidManifest.xml:19:9-26:20
+32-->E:\Test\stockbit-test\Stockbit-Test\app\src\main\AndroidManifest.xml:19:19-74
+33            <intent-filter>
+33-->E:\Test\stockbit-test\Stockbit-Test\app\src\main\AndroidManifest.xml:20:13-24:29
+34                <action android:name="android.intent.action.MAIN" />
+34-->E:\Test\stockbit-test\Stockbit-Test\app\src\main\AndroidManifest.xml:21:17-69
+34-->E:\Test\stockbit-test\Stockbit-Test\app\src\main\AndroidManifest.xml:21:25-66
+35
+36                <category android:name="android.intent.category.LAUNCHER" />
+36-->E:\Test\stockbit-test\Stockbit-Test\app\src\main\AndroidManifest.xml:23:17-77
+36-->E:\Test\stockbit-test\Stockbit-Test\app\src\main\AndroidManifest.xml:23:27-74
+37            </intent-filter>
+38        </activity>
+39        <activity
+39-->[pub.devrel:easypermissions:3.0.0] C:\Users\arysu\.gradle\caches\transforms-3\2593a3b3a41d82436efaa7d3d6b53750\transformed\jetified-easypermissions-3.0.0\AndroidManifest.xml:12:9-16:66
+40            android:name="pub.devrel.easypermissions.AppSettingsDialogHolderActivity"
+40-->[pub.devrel:easypermissions:3.0.0] C:\Users\arysu\.gradle\caches\transforms-3\2593a3b3a41d82436efaa7d3d6b53750\transformed\jetified-easypermissions-3.0.0\AndroidManifest.xml:13:13-86
+41            android:exported="false"
+41-->[pub.devrel:easypermissions:3.0.0] C:\Users\arysu\.gradle\caches\transforms-3\2593a3b3a41d82436efaa7d3d6b53750\transformed\jetified-easypermissions-3.0.0\AndroidManifest.xml:14:13-37
+42            android:label=""
+42-->[pub.devrel:easypermissions:3.0.0] C:\Users\arysu\.gradle\caches\transforms-3\2593a3b3a41d82436efaa7d3d6b53750\transformed\jetified-easypermissions-3.0.0\AndroidManifest.xml:15:13-29
+43            android:theme="@style/EasyPermissions.Transparent" />
+43-->[pub.devrel:easypermissions:3.0.0] C:\Users\arysu\.gradle\caches\transforms-3\2593a3b3a41d82436efaa7d3d6b53750\transformed\jetified-easypermissions-3.0.0\AndroidManifest.xml:16:13-63
+44        <activity
+44-->[com.facebook.android:facebook-common:8.2.0] C:\Users\arysu\.gradle\caches\transforms-3\ad4869f63651ef58c8d8296610116c81\transformed\jetified-facebook-common-8.2.0\AndroidManifest.xml:30:9-33:66
+45            android:name="com.facebook.FacebookActivity"
+45-->[com.facebook.android:facebook-common:8.2.0] C:\Users\arysu\.gradle\caches\transforms-3\ad4869f63651ef58c8d8296610116c81\transformed\jetified-facebook-common-8.2.0\AndroidManifest.xml:31:13-57
+46            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+46-->[com.facebook.android:facebook-common:8.2.0] C:\Users\arysu\.gradle\caches\transforms-3\ad4869f63651ef58c8d8296610116c81\transformed\jetified-facebook-common-8.2.0\AndroidManifest.xml:32:13-96
+47            android:theme="@style/com_facebook_activity_theme" />
+47-->[com.facebook.android:facebook-common:8.2.0] C:\Users\arysu\.gradle\caches\transforms-3\ad4869f63651ef58c8d8296610116c81\transformed\jetified-facebook-common-8.2.0\AndroidManifest.xml:33:13-63
+48        <activity android:name="com.facebook.CustomTabMainActivity" />
+48-->[com.facebook.android:facebook-common:8.2.0] C:\Users\arysu\.gradle\caches\transforms-3\ad4869f63651ef58c8d8296610116c81\transformed\jetified-facebook-common-8.2.0\AndroidManifest.xml:34:9-71
+48-->[com.facebook.android:facebook-common:8.2.0] C:\Users\arysu\.gradle\caches\transforms-3\ad4869f63651ef58c8d8296610116c81\transformed\jetified-facebook-common-8.2.0\AndroidManifest.xml:34:19-68
+49        <activity
+49-->[com.facebook.android:facebook-common:8.2.0] C:\Users\arysu\.gradle\caches\transforms-3\ad4869f63651ef58c8d8296610116c81\transformed\jetified-facebook-common-8.2.0\AndroidManifest.xml:35:9-49:20
+50            android:name="com.facebook.CustomTabActivity"
+50-->[com.facebook.android:facebook-common:8.2.0] C:\Users\arysu\.gradle\caches\transforms-3\ad4869f63651ef58c8d8296610116c81\transformed\jetified-facebook-common-8.2.0\AndroidManifest.xml:36:13-58
+51            android:exported="true" >
+51-->[com.facebook.android:facebook-common:8.2.0] C:\Users\arysu\.gradle\caches\transforms-3\ad4869f63651ef58c8d8296610116c81\transformed\jetified-facebook-common-8.2.0\AndroidManifest.xml:37:13-36
+52            <intent-filter>
+52-->[com.facebook.android:facebook-common:8.2.0] C:\Users\arysu\.gradle\caches\transforms-3\ad4869f63651ef58c8d8296610116c81\transformed\jetified-facebook-common-8.2.0\AndroidManifest.xml:39:13-48:29
+53                <action android:name="android.intent.action.VIEW" />
+53-->[com.facebook.android:facebook-common:8.2.0] C:\Users\arysu\.gradle\caches\transforms-3\ad4869f63651ef58c8d8296610116c81\transformed\jetified-facebook-common-8.2.0\AndroidManifest.xml:40:17-69
+53-->[com.facebook.android:facebook-common:8.2.0] C:\Users\arysu\.gradle\caches\transforms-3\ad4869f63651ef58c8d8296610116c81\transformed\jetified-facebook-common-8.2.0\AndroidManifest.xml:40:25-66
+54
+55                <category android:name="android.intent.category.DEFAULT" />
+55-->[com.facebook.android:facebook-common:8.2.0] C:\Users\arysu\.gradle\caches\transforms-3\ad4869f63651ef58c8d8296610116c81\transformed\jetified-facebook-common-8.2.0\AndroidManifest.xml:42:17-76
+55-->[com.facebook.android:facebook-common:8.2.0] C:\Users\arysu\.gradle\caches\transforms-3\ad4869f63651ef58c8d8296610116c81\transformed\jetified-facebook-common-8.2.0\AndroidManifest.xml:42:27-73
+56                <category android:name="android.intent.category.BROWSABLE" />
+56-->[com.facebook.android:facebook-common:8.2.0] C:\Users\arysu\.gradle\caches\transforms-3\ad4869f63651ef58c8d8296610116c81\transformed\jetified-facebook-common-8.2.0\AndroidManifest.xml:43:17-78
+56-->[com.facebook.android:facebook-common:8.2.0] C:\Users\arysu\.gradle\caches\transforms-3\ad4869f63651ef58c8d8296610116c81\transformed\jetified-facebook-common-8.2.0\AndroidManifest.xml:43:27-75
+57
+58                <data
+58-->[com.facebook.android:facebook-common:8.2.0] C:\Users\arysu\.gradle\caches\transforms-3\ad4869f63651ef58c8d8296610116c81\transformed\jetified-facebook-common-8.2.0\AndroidManifest.xml:45:17-47:50
+59                    android:host="cct.android.stockbit.hiring.dev"
+59-->[com.facebook.android:facebook-common:8.2.0] C:\Users\arysu\.gradle\caches\transforms-3\ad4869f63651ef58c8d8296610116c81\transformed\jetified-facebook-common-8.2.0\AndroidManifest.xml:46:21-56
+60                    android:scheme="fbconnect" />
+60-->[com.facebook.android:facebook-common:8.2.0] C:\Users\arysu\.gradle\caches\transforms-3\ad4869f63651ef58c8d8296610116c81\transformed\jetified-facebook-common-8.2.0\AndroidManifest.xml:47:21-47
+61            </intent-filter>
+62        </activity> <!-- Needs to be explicitly declared on P+ -->
+63        <uses-library
+63-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\arysu\.gradle\caches\transforms-3\3c9ce42c2f79b2458bd2f7f2b586040e\transformed\jetified-play-services-maps-17.0.0\AndroidManifest.xml:33:9-35:40
+64            android:name="org.apache.http.legacy"
+64-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\arysu\.gradle\caches\transforms-3\3c9ce42c2f79b2458bd2f7f2b586040e\transformed\jetified-play-services-maps-17.0.0\AndroidManifest.xml:34:13-50
+65            android:required="false" />
+65-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\arysu\.gradle\caches\transforms-3\3c9ce42c2f79b2458bd2f7f2b586040e\transformed\jetified-play-services-maps-17.0.0\AndroidManifest.xml:35:13-37
+66
+67        <service
+67-->[androidx.room:room-runtime:2.2.5] C:\Users\arysu\.gradle\caches\transforms-3\2495489c0fcf780f95d2d9e03c99e67e\transformed\room-runtime-2.2.5\AndroidManifest.xml:25:9-28:40
+68            android:name="androidx.room.MultiInstanceInvalidationService"
+68-->[androidx.room:room-runtime:2.2.5] C:\Users\arysu\.gradle\caches\transforms-3\2495489c0fcf780f95d2d9e03c99e67e\transformed\room-runtime-2.2.5\AndroidManifest.xml:26:13-74
+69            android:directBootAware="true"
+69-->[androidx.room:room-runtime:2.2.5] C:\Users\arysu\.gradle\caches\transforms-3\2495489c0fcf780f95d2d9e03c99e67e\transformed\room-runtime-2.2.5\AndroidManifest.xml:27:13-43
+70            android:exported="false" />
+70-->[androidx.room:room-runtime:2.2.5] C:\Users\arysu\.gradle\caches\transforms-3\2495489c0fcf780f95d2d9e03c99e67e\transformed\room-runtime-2.2.5\AndroidManifest.xml:28:13-37
+71
+72        <activity
+72-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\arysu\.gradle\caches\transforms-3\bca4d9d9f9a9b394d792e1aa5df72bfa\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+73            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+73-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\arysu\.gradle\caches\transforms-3\bca4d9d9f9a9b394d792e1aa5df72bfa\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+74            android:exported="false"
+74-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\arysu\.gradle\caches\transforms-3\bca4d9d9f9a9b394d792e1aa5df72bfa\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+75            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+75-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\arysu\.gradle\caches\transforms-3\bca4d9d9f9a9b394d792e1aa5df72bfa\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+76
+77        <meta-data
+77-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\arysu\.gradle\caches\transforms-3\d99825695d145df29adf221a3c40921b\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+78            android:name="com.google.android.gms.version"
+78-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\arysu\.gradle\caches\transforms-3\d99825695d145df29adf221a3c40921b\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+79            android:value="@integer/google_play_services_version" />
+79-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\arysu\.gradle\caches\transforms-3\d99825695d145df29adf221a3c40921b\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+80        <!--
+81         The initialization ContentProvider will call FacebookSdk.sdkInitialize automatically
+82         with the application context. This config is merged in with the host app's manifest,
+83         but there can only be one provider with the same authority activated at any given
+84         point; so if the end user has two or more different apps that use Facebook SDK, only the
+85         first one will be able to use the provider. To work around this problem, we use the
+86         following placeholder in the authority to identify each host application as if it was
+87         a completely different provider.
+88        -->
+89        <provider
+89-->[com.facebook.android:facebook-core:8.2.0] C:\Users\arysu\.gradle\caches\transforms-3\9010881ee6700b627fb0c790b568a132\transformed\jetified-facebook-core-8.2.0\AndroidManifest.xml:39:9-42:40
+90            android:name="com.facebook.internal.FacebookInitProvider"
+90-->[com.facebook.android:facebook-core:8.2.0] C:\Users\arysu\.gradle\caches\transforms-3\9010881ee6700b627fb0c790b568a132\transformed\jetified-facebook-core-8.2.0\AndroidManifest.xml:40:13-70
+91            android:authorities="android.stockbit.hiring.dev.FacebookInitProvider"
+91-->[com.facebook.android:facebook-core:8.2.0] C:\Users\arysu\.gradle\caches\transforms-3\9010881ee6700b627fb0c790b568a132\transformed\jetified-facebook-core-8.2.0\AndroidManifest.xml:41:13-72
+92            android:exported="false" />
+92-->[com.facebook.android:facebook-core:8.2.0] C:\Users\arysu\.gradle\caches\transforms-3\9010881ee6700b627fb0c790b568a132\transformed\jetified-facebook-core-8.2.0\AndroidManifest.xml:42:13-37
+93
+94        <receiver
+94-->[com.facebook.android:facebook-core:8.2.0] C:\Users\arysu\.gradle\caches\transforms-3\9010881ee6700b627fb0c790b568a132\transformed\jetified-facebook-core-8.2.0\AndroidManifest.xml:44:9-50:20
+95            android:name="com.facebook.CurrentAccessTokenExpirationBroadcastReceiver"
+95-->[com.facebook.android:facebook-core:8.2.0] C:\Users\arysu\.gradle\caches\transforms-3\9010881ee6700b627fb0c790b568a132\transformed\jetified-facebook-core-8.2.0\AndroidManifest.xml:45:13-86
+96            android:exported="false" >
+96-->[com.facebook.android:facebook-core:8.2.0] C:\Users\arysu\.gradle\caches\transforms-3\9010881ee6700b627fb0c790b568a132\transformed\jetified-facebook-core-8.2.0\AndroidManifest.xml:46:13-37
+97            <intent-filter>
+97-->[com.facebook.android:facebook-core:8.2.0] C:\Users\arysu\.gradle\caches\transforms-3\9010881ee6700b627fb0c790b568a132\transformed\jetified-facebook-core-8.2.0\AndroidManifest.xml:47:13-49:29
+98                <action android:name="com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED" />
+98-->[com.facebook.android:facebook-core:8.2.0] C:\Users\arysu\.gradle\caches\transforms-3\9010881ee6700b627fb0c790b568a132\transformed\jetified-facebook-core-8.2.0\AndroidManifest.xml:48:17-95
+98-->[com.facebook.android:facebook-core:8.2.0] C:\Users\arysu\.gradle\caches\transforms-3\9010881ee6700b627fb0c790b568a132\transformed\jetified-facebook-core-8.2.0\AndroidManifest.xml:48:25-92
+99            </intent-filter>
+100        </receiver>
+101    </application>
+102
+103</manifest>

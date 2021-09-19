@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/home"
+        android:title="@string/nav_menu_cd_home"
+        android:contentDescription="@string/nav_menu_cd_home"
+        android:icon="@drawable/ic_baseline_star_outline_24"/>
+
+    <item
+        android:id="@+id/stream"
+        android:title="@string/nav_menu_cd_cart"
+        android:contentDescription="@string/nav_menu_cd_cart"
+        android:icon="@drawable/ic_baseline_text_snippet_24"/>
+
+    <item
+        android:id="@+id/chat"
+        android:title="@string/nav_menu_cd_search"
+        android:contentDescription="@string/nav_menu_cd_cart"
+        android:icon="@drawable/ic_baseline_search_24"/>
+    <item
+        android:id="@+id/cart"
+        android:title="@string/nav_menu_cd_chat"
+        android:contentDescription="@string/nav_menu_cd_cart"
+        android:icon="@drawable/ic_baseline_chat_bubble_outline_24"/>
+    <item
+        android:id="@+id/protofolio"
+        android:title="@string/nav_menu_cd_portofolio"
+        android:contentDescription="@string/nav_menu_cd_portofolio"
+        android:icon="@drawable/ic_baseline_pie_chart_24"/>
+</menu>

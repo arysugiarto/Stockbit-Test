@@ -1,0 +1,31 @@
+<resources>
+
+    <!--Bottom Nav-->
+
+    <string name="nav_menu_cd_home">Watchlist</string>
+    <string name="nav_menu_cd_cart">Stream</string>
+    <string name="nav_menu_cd_search">Search</string>
+    <string name="nav_menu_cd_chat">Chat</string>
+    <string name="nav_menu_cd_portofolio">Portofolio</string>
+
+    <!--Register-->
+    <string name="register_password_weak">Kata Sandi Lemah</string>
+    <string name="register_password_medium">Kekuatan Kata sandi Sedang</string>
+    <string name="register_password_strong">Kata Sandi Kuat</string>
+    <string name="register_password_very_strong">Kata Sandi Sangat Kuat</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="login">Login</string>
+    <string name="login_google">Masuk dengan Google</string>
+    <string name="com_facebook">Masuk dengan Facebook</string>
+    <string name="username">Username or Email</string>
+    <string name="password">Password</string>
+    <string name="forgot_password">Lupa Password</string>
+    <string name="login_fingerprint">Masuk dengan Fingerprint</string>
+    <string name="masuk">Masuk</string>
+    <string name="login_daftar_question">Belum punya akun?</string>
+    <string name="login_daftar">Daftar sekarang</string>
+    <string name="stockbit">Stockbit</string>
+    <string name="arrow_watchlist">All Watchlist</string>
+    <string name="add_symbol">Add Symbol</string>
+</resources>
